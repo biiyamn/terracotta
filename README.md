@@ -9,3 +9,15 @@ Terracotta jvm clustering labs
 * DSO features will no longer be included in Terracotta products from v4 use big memory instead
 ```https://confluence.terracotta.org/pages/viewpage.action?pageId=37129634#ChangestoOpen-SourceTerracottaServerArrayandTerracottaDSO(FAQ)-What'shappeningwithTerracottaDSO?```
 * for previous release ```https://confluence.terracotta.org/display/release/BigMemory+Release+Archive```
+# lab1 counter
+* mvn compile
+* export JAVA_HOME=~/Downloads/jdk1.6.0_45/
+* start terracotta server:  terracotta-3.7.10/bin/start-tc-server.sh
+* cd counter/target/classes
+* console1 : terracotta-3.7.10/platform/bin/dso-java.sh -cp . tc/Counter
+* console2 : terracotta-3.7.10/platform/bin/dso-java.sh -cp . tc/Counter
+
+
+
+
+
