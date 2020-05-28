@@ -16,6 +16,13 @@ Terracotta jvm clustering labs
 * cd counter/target/classes
 * console1 : terracotta-3.7.10/platform/bin/dso-java.sh -cp . tc/Counter
 * console2 : terracotta-3.7.10/platform/bin/dso-java.sh -cp . tc/Counter
+#Technical tips
+## On-heeap off-heap
+* https://stackoverflow.com/questions/6091615/difference-between-on-heap-and-off-heap
+* https://code.google.com/archive/p/fast-serialization/wikis/QuickStartHeapOff.wiki
+## bigmemory
+* https://stackoverflow.com/questions/39578358/differences-between-ehcache-3-offheap-storage-and-bigmemory
+
 
 
 
